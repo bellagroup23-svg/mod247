@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MOD 24/7 — AI-Augmented Community Moderation for Web3</title>
+<style>
+  :root{
+    --bg:#0a0e14; --panel:#11161f; --panel2:#151c28; --line:#232d3d;
+    --txt:#e7edf5; --mut:#8fa0b6; --acc:#37e29a; --acc2:#59c2ff; --warn:#ffc46b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .wrap{max-width:880px;margin:0 auto;padding:28px 20px 64px}
+  header.hero{text-align:center;padding:48px 16px 32px;border:1px solid var(--line);
+    border-radius:20px;background:radial-gradient(600px 220px at 50% -40px, rgba(55,226,154,.14), transparent 70%), var(--panel)}
+  .badge{display:inline-block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--acc);border:1px solid rgba(55,226,154,.4);border-radius:999px;padding:6px 14px;margin-bottom:18px}
+  h1{font-size:clamp(34px,6vw,54px);line-height:1.05;letter-spacing:-.02em}
+  h1 span{color:var(--acc)}
+  .sub{color:var(--mut);max-width:620px;margin:16px auto 0;font-size:17px}
+  .grid{display:grid;gap:14px;margin-top:26px}
+  .g4{grid-template-columns:repeat(4,1fr)} .g3{grid-template-columns:repeat(3,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media (max-width:720px){.g4{grid-template-columns:repeat(2,1fr)} .g3{grid-template-columns:1fr} .g2{grid-template-columns:1fr}}
+  .card{background:var(--panel2);border:1px solid var(--line);border-radius:16px;padding:20px}
+  .stat{text-align:center}
+  .stat b{display:block;font-size:26px;color:var(--acc);letter-spacing:-.01em}
+  .stat span{font-size:13px;color:var(--mut)}
+  h2{font-size:24px;margin:44px 0 6px;letter-spacing:-.01em}
+  .kick{color:var(--acc2);font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin-top:44px}
+  .card h3{font-size:16px;margin-bottom:6px}
+  .card p{color:var(--mut);font-size:14.5px}
+  .num{font-size:22px;color:var(--acc);font-weight:700;margin-bottom:6px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+  .chip{font-size:13.5px;background:rgba(89,194,255,.08);border:1px solid rgba(89,194,255,.3);
+    color:#bfe3ff;border-radius:999px;padding:6px 13px}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin-top:14px;background:var(--panel2);border-radius:12px;overflow:hidden}
+  th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left}
+  th{color:var(--mut);font-weight:600;font-size:12.5px;text-transform:uppercase;letter-spacing:.06em}
+  td b{color:var(--acc)}
+  .price{position:relative}
+  .price .tag{position:absolute;top:-11px;left:20px;background:var(--acc);color:#06281b;
+    font-size:11.5px;font-weight:700;letter-spacing:.08em;border-radius:999px;padding:3px 12px}
+  .price .val{font-size:26px;font-weight:800;margin:8px 0 2px}
+  .price .per{color:var(--mut);font-size:13px}
+  .price ul{margin:14px 0 0 18px;color:var(--mut);font-size:14px}
+  .price li{margin:4px 0}
+  .trial{border:1px solid rgba(55,226,154,.55);background:linear-gradient(180deg, rgba(55,226,154,.08), transparent)}
+  mark{background:rgba(255,196,107,.25);color:var(--warn);border-radius:4px;padding:0 5px}
+  .cta{margin-top:44px;text-align:center;border:1px dashed rgba(55,226,154,.4);border-radius:18px;padding:34px 20px}
+  .cta a{color:#06281b;background:var(--acc);text-decoration:none;font-weight:700;border-radius:10px;padding:13px 26px;display:inline-block;margin-top:14px}
+  .foot{margin-top:26px;text-align:center;color:var(--mut);font-size:13px}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="badge">AI + Human-in-the-loop · Discord · Telegram</div>
+    <h1>MOD <span>24/7</span></h1>
+    <p class="sub">AI-augmented moderation for web3 communities. Fake airdrops, wallet-verify
+      phishing and seed drainers die in <b>milliseconds</b> — while a human approves every
+      destructive action.</p>
+  </header>
+
+  <div class="grid g4">
+    <div class="card stat"><b>6/6</b><span>scam families blocked in live test battery</span></div>
+    <div class="card stat"><b>0.016&nbsp;ms</b><span>average triage latency (local engine)</span></div>
+    <div class="card stat"><b>0</b><span>false positives on regular member messages</span></div>
+    <div class="card stat"><b>US$0</b><span>API cost per action — your budget stays flat</span></div>
+  </div>
+
+  <div class="kick">The problem</div>
+  <h2>Your community gets raided at 3&nbsp;a.m. Your mods sleep at 3&nbsp;a.m.</h2>
+  <div class="grid g3">
+    <div class="card"><div class="num">01</div><h3>Phishing never sleeps</h3>
+      <p>Fake airdrops and "verify your wallet" links are posted the moment moderators go offline — and drains happen in minutes.</p></div>
+    <div class="card"><div class="num">02</div><h3>One scam = trust gone</h3>
+      <p>A single drained member becomes a FUD wave. Projects lose holders, volume and reputation in one night.</p></div>
+    <div class="card"><div class="num">03</div><h3>Mods burn out on FAQ</h3>
+      <p>"Wen token? Contract address? How to buy?" — 80% of moderation is repetition that a system should absorb.</p></div>
+  </div>
+
+  <div class="kick">Coverage</div>
+  <h2>What the engine kills on sight</h2>
+  <div class="chips">
+    <span class="chip">🎣 Fake airdrops &amp; "claim now" links</span>
+    <span class="chip">🔐 Wallet-verify / sync phishing</span>
+    <span class="chip">🌱 Seed-phrase drainers</span>
+    <span class="chip">🎭 Fake support &amp; admin impersonators</span>
+    <span class="chip">🪞 Typosquat domains (metamsak, binanace…)</span>
+    <span class="chip">📈 "Guaranteed profit" &amp; 100x scams</span>
+    <span class="chip">🚨 Pump-and-dump shilling</span>
+    <span class="chip">🌊 Spam floods (auto-mute)</span>
+    <span class="chip">❓ Instant FAQ (wen token, CA, how to buy, roadmap, team)</span>
+  </div>
+
+  <div class="kick">How it works</div>
+  <h2>Machine speed, human judgment</h2>
+  <div class="grid g3">
+    <div class="card"><div class="num">1</div><h3>Detect</h3>
+      <p>Deterministic rules engine triages every message in under 0.03&nbsp;ms across 8 threat families + spam windows + FAQ intents.</p></div>
+    <div class="card"><div class="num">2</div><h3>Approve</h3>
+      <p>Every destructive action (ban / mute / warn) lands in an approval queue. <b>A human signs off</b> — no rogue bot, ever.</p></div>
+    <div class="card"><div class="num">3</div><h3>Act &amp; report</h3>
+      <p>Approved actions execute instantly. You get a daily security digest: threats blocked, categories, response times.</p></div>
+  </div>
+
+  <div class="kick">Proof</div>
+  <h2>Latest test battery — simulated raid, 19 messages</h2>
+  <table>
+    <tr><th>Scenario</th><th>Result</th></tr>
+    <tr><td>Phishing wave (6 attacks: airdrop, wallet-verify, seed drain, fake support, guaranteed-profit, shill)</td><td><b>6/6 blocked</b> — 5 ban+delete, 1 delete+warn</td></tr>
+    <tr><td>Spam flood (5 msgs / 9&nbsp;s from one account)</td><td><b>Auto-muted</b> at the 5th message</td></tr>
+    <tr><td>Repetitive questions (wen token, CA, how to buy, roadmap, team)</td><td><b>5/5 answered</b> instantly with safety notes</td></tr>
+    <tr><td>Regular members chatting</td><td><b>0 false positives</b> — untouched</td></tr>
+    <tr><td>Triage latency / API cost</td><td>avg <b>0.016&nbsp;ms</b> · <b>US$0.00</b></td></tr>
+    <tr><td>Automated test suite</td><td><b>12/12 passing</b> (full log available on request)</td></tr>
+  </table>
+
+  <div class="kick">Pricing</div>
+  <h2>Start with a free 7-day trial in your server</h2>
+  <div class="grid g3" style="margin-top:26px">
+    <div class="card price trial">
+      <div class="tag">START HERE</div>
+      <h3>Trial</h3><div class="val">7 days free</div><div class="per">no wallet connection, no payment</div>
+      <ul><li>Engine live in your Discord/Telegram</li><li>Daily security digest</li><li>Cancel = we leave, that's it</li></ul>
+    </div>
+    <div class="card price">
+      <h3>Part-time watch</h3><div class="val">US$1,000–1,500</div><div class="per">/month · USDT or USDC</div>
+      <ul><li>Engine 24/7 + human review 4h/day</li><li>FAQ auto-answers</li><li>Weekly report</li></ul>
+    </div>
+    <div class="card price">
+      <h3>Full coverage</h3><div class="val">US$2,000–3,000</div><div class="per">/month · USDT or USDC</div>
+      <ul><li>Engine + human coverage ~16h/day</li><li>Raid response playbook</li><li>Weekly report + community health metrics</li></ul>
+    </div>
+  </div>
+
+  <div class="kick">About</div>
+  <h2>Who you're hiring</h2>
+  <div class="card">
+    <p><mark>SEU NOME AQUI</mark> — builder of autonomous agent systems (Python), based in Brazil
+    (UTC-3, perfect overlap with US evenings &amp; Asia mornings). I operate my own moderation
+    stack: deterministic rules engine + optional LLM layer for gray-zone cases + research
+    reports on request. I don't ask for admin keys, seed phrases or wallet connections —
+    only a standard bot invite with message-manage permissions.</p>
+  </div>
+
+  <div class="cta">
+    <h2 style="margin-top:0">One drained wallet costs more than a year of moderation.</h2>
+    <p class="sub" style="margin-top:8px">Telegram: <mark>@SEU_HANDLE</mark> · Discord: <mark>seu_discord</mark> · Email: <mark>seu@email.com</mark></p>
+    <a href="mailto:seu@email.com">Start the free 7-day trial →</a>
+    <p class="foot mono" style="margin-top:18px">Payment in USDT/USDC after trial · bot invite only · references & test logs on request</p>
+  </div>
+
+</div>
+</body>
+</html>
