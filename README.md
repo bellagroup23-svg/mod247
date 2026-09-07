@@ -50,3 +50,4 @@ Moderação e segurança para comunidades web3, jogos e criadores — setup + re
 
 ---
 Feito no Rio de Janeiro 🇧🇷 com um laptop e café. [MIT License](./LICENSE).
+🌐 **Live:** https://bellagroup23-svg.github.io/mod247/
